@@ -1,0 +1,116 @@
+.Micro{
+    margin: -480px;
+    background-color: black;
+}
+
+body{
+    margin: 0;
+    display: block;
+    background-color: rgb(68, 87, 96);
+    color: white;
+    font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
+    font-size: 81.25%;
+}
+
+.gmail{
+    float: right;
+    font-size: 14px;
+    /* color: white; */
+    padding: 12px 75px;
+}
+
+.header li{
+    display:inline-block;
+    font-size: 10px;
+    margin: 0 100px;
+    cursor:pointer;
+}
+.gmail li{
+   
+    display: inline;
+    /* font-size: 5vw; */
+    margin: 0 7px;
+    cursor:pointer;
+}
+.gmail li a{
+    color: white;
+    text-decoration: none;
+}
+.logo{
+height: 35px;
+width: 35px;
+border-radius: 50%;
+margin: -11px 0px;
+
+}
+.google {
+    padding: 60px;
+}
+
+h1{
+    /* font-family: sans-serif;
+    font-style: var(--most-visited-focus-shadow); */
+   font-size: 90px;
+   font-style: normal;
+   font-weight: 600;
+
+   forced-color-adjust: none;
+   height: 92px;
+   width: 272px;
+}
+
+.contain{
+    background-color: white;
+    border-radius: 22px;
+    height: 40px;
+    width: 580px;
+    margin: 0 440px;
+    font: 1.2em sans-serif;
+    display: inherit;
+    margin-bottom: 16px;
+    position: relative;
+}
+
+.hh{
+--cr-menu-shadow: var(--ntp-menu-shadow);
+--most-visited-focus-shadow: var(--ntp-focus-shadow);
+--most-visited-text-color: var(--color-new-tab-page-most-visited-foreground);
+--most-visited-text-shadow: var(--ntp-theme-text-shadow);
+   
+text-align:center;
+margin: 0 610px;
+color: white;
+display: grid;
+grid-template-columns: auto auto auto;
+grid-column-gap: 50px ;
+}
+
+.youtube{
+    border-radius: 30px;
+    background-color:rgb(57, 65, 67);
+    justify-content: center;
+    /* color:#fff; */
+    width: 50px;
+    height: 50px;
+    /* opacity: 0.3; */
+    cursor:pointer;
+} 
+
+.footer{
+ bottom: 16px;
+position: fixed;
+margin: 0 1340px;
+/* float: right; */
+}
+
+.btn{
+    background-color: black;
+    color: rgb(142, 142, 236);
+    height: 36px;
+    width: 170px;
+    border-radius: 30px;
+}
+.fa-youtube{
+  color: red;
+  text-decoration: none;
+}
